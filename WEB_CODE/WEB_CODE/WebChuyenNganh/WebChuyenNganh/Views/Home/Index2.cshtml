@@ -1,0 +1,140 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Index2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .container {
+        width: 100%;
+        /*  max-width: 1200px; */
+        margin: 0 auto;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .contact-section {
+        width: 80%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: center; /* Canh giữa nội dung theo chiều ngang */
+    }
+
+    .group-wrapper {
+        display: flex;
+        justify-content: center; /* Canh giữa theo chiều ngang */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Canh giữa theo chiều ngang */
+    }
+
+    .contact-item {
+        flex: 0 0 calc(20% - 20px);
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    button.submit-btn {
+        align-self: center;
+        /* Canh nút submit ra giữa theo chiều dọc */
+    }
+</style>
+
+<main>
+    <div class="contact-section section" id="contact">
+        <h1 class="section-header">
+            TRA CỨU CHUYÊN NGÀNH
+        </h1>
+        <form asp-action="chonCTDT" method="post">
+            <div class="contact-item">
+                <label for="ctdtSelector">Chọn CTDT:</label>
+                <select id="ctdtSelector" name="SelectedCTDT">
+                    <option value="CTDT12">CTDT12</option>
+                    <option value="CTDT13">CTDT13</option>
+                </select>
+                <button type="submit">CHỌN</button>
+            </div>
+        </form>
+        <form asp-action="Predict" method="post" class="contact-form grid">
+            <div class="container">
+                <div class="contact-group">
+                    <div class="contact-row">
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">NHẬP MÔN LẬP TRÌNH</h6>
+                            <input asp-for="GradeNhapMonLapTrinh" placeholder="Nhập Điểm" required id="GradeNhapMonLapTrinh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">CẤU TRUC DỮ LIỆU VÀ GIẢI THUẬT</h6>
+                            <input asp-for="GradeCauTrucDuLieu" placeholder="Nhập Điểm" required id="GradeCauTrucDuLieu" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">DỮ LIỆU NoSQL</h6>
+                            <input asp-for="GradeLapTrinhHuongDoiTuong" placeholder="Nhập Điểm" required id="GradeLapTrinhHuongDoiTuong" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">CÔNG NGHỆ #NET</h6>
+                            <input asp-for="GradeCongNgheNET" placeholder="Nhập Điểm" required id="GradeCongNgheNET" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">CỞ SỞ DỮ LIỆU</h6>
+                            <input asp-for="GradeCoSoDuLieu" placeholder="Nhập Điểm" required id="GradeCoSoDuLieu" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU</h6>
+                            <input asp-for="GradeHeQuanTriCoSoDuLieu" placeholder="Nhập Điểm" required id="GradeHeQuanTriCoSoDuLieu" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">TRÍ TUỆ NHÂN TẠO</h6>
+                            <input asp-for="GradeTriTueNhanTao" placeholder="Nhập Điểm" required id="GradeTriTueNhanTao" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">MẠNG MÁY TÍNH</h6>
+                            <input asp-for="GradeMangMayTinh" placeholder="Nhập Điểm" required id="GradeMangMayTinh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">HỆ ĐIỀU HÀNH</h6>
+                            <input asp-for="GradeHeDieuHanh" placeholder="Nhập Điểm" required id="GradeHeDieuHanh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">KIẾN TRÚC MÁY TÍNH</h6>
+                            <input asp-for="GradeKienTrucMayTinh" placeholder="Nhập Điểm" required id="GradeKienTrucMayTinh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                    </div>
+                    <!-- Thêm các trường input khác tương tự -->
+                    <button type="submit" class="btn submit-btn contact-form">Xem</button>
+
+                </div>
+            </div>
+
+
+        </form>
+        
+
+    </div>
+</main>
