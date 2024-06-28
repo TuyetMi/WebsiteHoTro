@@ -1,0 +1,62 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<style>
+    .container {
+        width: 100%;
+        /*  max-width: 1200px; */
+        margin: 0 auto;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .contact-section {
+        width: 80%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: center; /* Canh giữa nội dung theo chiều ngang */
+    }
+
+    .group-wrapper {
+        display: flex;
+        justify-content: center; /* Canh giữa theo chiều ngang */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Canh giữa theo chiều ngang */
+    }
+
+    .contact-item {
+        flex: 0 0 calc(20% - 20px);
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    button.submit-btn {
+        align-self: center;
+        /* Canh nút submit ra giữa theo chiều dọc */
+    }
+</style>
+
+
+
+
+<!-- =============== projects section ============ -->
+
+</main>

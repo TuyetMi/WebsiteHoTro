@@ -1,0 +1,81 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "PredictionResult";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="contact-section section" id="contact">
+        <h1 class="section-header">
+            TRA CỨU CHUYÊN NGÀNH
+        </h1>
+        <form asp-action="Predict" method="post" class="contact-form grid">
+            <div class="container">
+                <div class="contact-group">
+                    <div class="contact-row">
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">NHẬP MÔN LẬP TRÌNH</h6>
+                            <input asp-for="GradeNhapMonLapTrinh" placeholder="Nhập Điểm" required id="GradeNhapMonLapTrinh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">CẤU TRUC DỮ LIỆU VÀ GIẢI THUẬT</h6>
+                            <input asp-for="GradeCauTrucDuLieu" placeholder="Nhập Điểm" required id="GradeCauTrucDuLieu" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</h6>
+                            <input asp-for="GradeLapTrinhHuongDoiTuong" placeholder="Nhập Điểm" required id="GradeLapTrinhHuongDoiTuong" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">CÔNG NGHỆ #NET</h6>
+                            <input asp-for="GradeCongNgheNET" placeholder="Nhập Điểm" required id="GradeCongNgheNET" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">CỞ SỞ DỮ LIỆU</h6>
+                            <input asp-for="GradeCoSoDuLieu" placeholder="Nhập Điểm" required id="GradeCoSoDuLieu" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU</h6>
+                            <input asp-for="GradeHeQuanTriCoSoDuLieu" placeholder="Nhập Điểm" required id="GradeHeQuanTriCoSoDuLieu" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">TRÍ TUỆ NHÂN TẠO</h6>
+                            <input asp-for="GradeTriTueNhanTao" placeholder="Nhập Điểm" required id="GradeTriTueNhanTao" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">MẠNG MÁY TÍNH</h6>
+                            <input asp-for="GradeMangMayTinh" placeholder="Nhập Điểm" required id="GradeMangMayTinh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">HỆ ĐIỀU HÀNH</h6>
+                            <input asp-for="GradeHeDieuHanh" placeholder="Nhập Điểm" required id="GradeHeDieuHanh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                        <div class="contact-item">
+                            <h6 class="section-header" style="font-size: 14px;">KIẾN TRÚC MÁY TÍNH</h6>
+                            <input asp-for="GradeKienTrucMayTinh" placeholder="Nhập Điểm" required id="GradeKienTrucMayTinh" style="text-align: center; display: block; margin: 0 auto;">
+                        </div>
+
+                    </div>
+                    <!-- Thêm các trường input khác tương tự -->
+                    <button type="submit" class="btn submit-btn contact-form">Xem</button>
+
+                </div>
+            </div>
+
+
+        </form>
+        <h2>Kết quả dự đoán:</h2>
+        <p>Chuyên ngành dự đoán: @Model.PredictedDepartment</p>
+
+    </div>
+</main>
+

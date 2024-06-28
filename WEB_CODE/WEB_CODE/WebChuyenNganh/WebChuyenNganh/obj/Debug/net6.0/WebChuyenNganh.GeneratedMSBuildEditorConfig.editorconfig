@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebChuyenNganh
+build_property.RootNamespace = WebChuyenNganh
+build_property.ProjectDir = C:\Nam 4\Do An\csdl\DoAnChuyenNganh\WebChuyenNganh\WebChuyenNganh\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Nam 4\Do An\csdl\DoAnChuyenNganh\WebChuyenNganh\WebChuyenNganh
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Home/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Home/PredictionResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmVkaWN0aW9uUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Home/TraCuu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFDdXUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/QuanLy/CTDT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5XENURFQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/QuanLy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/QuanLy/MonHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5XE1vbkhvYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/SinhVien/CTDT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cQ1REVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/SinhVien/Diem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGllbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nam 4/Do An/csdl/DoAnChuyenNganh/WebChuyenNganh/WebChuyenNganh/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zo2qxi0vlp
